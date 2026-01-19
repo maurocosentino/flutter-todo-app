@@ -81,11 +81,12 @@ class _HomePageState extends State<HomePage> {
         backgroundColor: Colors.blue[300],
         title: Center(
           child: Text(
-            "TO-DO LIST",
+            "My tasks",
             style: GoogleFonts.montserrat(
               color: Colors.black,
-              fontWeight: FontWeight.bold,
-              fontSize: 26,
+              fontSize: 20,
+              fontWeight: FontWeight.w500,
+
               // decoration: TextDecoration.underline,
               // decorationColor: Colors.white,
             ),
